@@ -1,0 +1,31 @@
+@media (max-width:600px) {
+
+.products{
+  display: inherit;
+  height: auto;
+}
+
+.product .content{
+  margin: auto;
+}
+
+.reto_section1{
+  display: inherit;
+}
+
+.menciones-content{
+  display: inherit;
+  padding-top: 0;
+}
+
+.menciones-content__clientes{
+  margin-top: 30px;
+}
+
+}
+
+/*por abajo de los 600px active todas las reglas indicadas*/
+
+/*min-width: Con este ejemplo, estamos aplicando una serie de estilos,
+que se tendrán en cuenta solamente cuando
+la anchura de la pantalla sea de 1000px en adelante.*/

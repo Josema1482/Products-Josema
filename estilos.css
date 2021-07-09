@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/*el import hay que ponerlo, siempre en la primera linea del codigo css*/
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+:root{
+  --color_green: #7acc2d;
+
+}
+
+nav{
+  display: flex;
+  background-color: var(--color_green);
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 3px #888888;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+
+}
+
+nav ul li{
+  padding-right: 10px;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: white;
+}
+
+.main_section{
+  padding: 20%;
+  text-align: center;
+}
+
+.products{
+  background-image: url("images/curve.png");
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  padding: 15%;
+  height: 50px;
+}
+
+.product{
+  padding: 10px;
+}
+
+.product .content{
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 0 2px grey;
+  margin-top: -190px;
+}
+
+.content-img{
+  text-align: center;
+}
+
+.product-content_button{
+  background-color: var(--color_green);
+  border: 0;
+  width: 100%;
+  font-size: 1.7rem;
+  padding: 10px;
+  margin-top: 7px;
+  cursor: pointer;
+
+}
+
+.product-content_button:hover{
+  background-color: #659e30;
+}
+
+.reto_section1{
+  display: flex;
+  padding: 1%;
+  width: 100%
+}
+
+.reto_section1__img{
+  text-align: center;
+  witdh: 100%;
+}
+
+.reto-section1__box{
+  padding: 5%;
+}
+
+.reto-section1__box h2{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*MENCIONES*/
+.title-menciones{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.menciones-content{
+  display: flex;
+  padding: 50px;
+}
+
+.img-clientes{
+  width: 100%;
+}
+
+.menciones-content__clientes{
+  box-shadow: 0 0 5px grey;
+  margin-right: 20px;
+}
+
+.cliente__descripcion{
+  margin-top: 10px;
+
+}
+
+.cliente__descripcion p{
+  line-height: 15px;
+  padding: 5px;
+}
+
+.cliente__descripcion h3{
+  padding: 5px;
+}
+
+.footer-conteiner{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color_green);
+  padding: 10px;
+  
+}

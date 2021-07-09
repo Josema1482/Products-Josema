@@ -1,0 +1,19 @@
+body{
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.return{
+  color: white;
+  cursor: pointer;
+}
+
+.content-paypal p, .content-paypal h2{
+  margin-top: 10px;
+}
